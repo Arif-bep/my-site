@@ -55,7 +55,7 @@ iframe {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url(images/Изображение\ WhatsApp\ 2025-08-28\ в\ 22.46.58_a04028cb.jpg);
+    background: url(speed.jpg);
 }
 .sec1 h1{
     font-size: 100px;
@@ -126,4 +126,5 @@ iframe {
     color: gray;
     display: flex;
     align-items: center;
+
 }
