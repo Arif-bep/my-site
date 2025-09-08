@@ -128,3 +128,29 @@ iframe {
     align-items: center;
 
 }
+@media (max-width: 768px){
+    .sec1{
+        height: 40vh;
+        background-position: center;
+        width: 100%;
+    }
+    .sec4{
+        width: 100%;
+    }
+    .cards{
+        width: 700px;
+    }
+    .image img{
+        width: 140px;
+        height: 250px;
+    }
+    .images img{
+        width: 200px;
+        height: 250px;
+    }
+    iframe{
+        width: 100%;
+        margin: 0;
+        height: 200px;
+    }
+}
