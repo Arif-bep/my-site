@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    height: 100px;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+nav a:hover {
+    color: black;
+}
+
+iframe {
+    width: 90%;
+    height: 70vh;
+    margin-left: 75px;
+}
+
+.sec1 a {
+    padding: 10px 40px;
+    margin-top: 50px;
+    background-color: palevioletred;
+    text-decoration: none;
+    color: white;
+    transition: .6s;
+}
+
+.sec1 a:hover {
+    border: 1px solid palevioletred;
+    background-color: white;
+    color: palevioletred;
+}
+
+.sec1 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(images/speed.jpg);
+}
+
+.sec1 h1 {
+    font-size: 100px;
+    color: #fff;
+}
+
+.cards {
+    position: relative;
+    background-color: #fafafa;
+    width: 700px;
+    height: 250px;
+    margin-left: 20px;
+    border-left: 4px solid #fafafa;
+    display: flex;
+    transition: 1s;
+}
+
+.carda {
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+
+.carda h1 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.carda h2 {
+    font-weight: bold;
+    color: #f08a8a;
+    font-size: 15px;
+}
+
+.cardf p {
+    margin-top: 30px;
+    color: gray;
+    padding-bottom: 40px;
+}
+
+.sec4 {
+    height: 900px;
+}
+
+.cards a {
+    transition: .4s;
+    padding: 10px 40px;
+    margin-top: 50px;
+    text-decoration: none;
+    background-color: white;
+    color: palevioletred;
+    border: 2px solid palevioletred;
+}
+
+.cards a:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+.cards:hover {
+    border-left: 4px solid blue;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 150px;
+}
+.sec5 {
+    justify-content: space-around;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 768px){
+    .sec1{
+        height: 40vh;
+        background-position: center;
+        width: 100%;
+    }
+    .sec4{
+        width: 100%;
+    }
+    .cards{
+        width: 700px;
+    }
+    .image img{
+        width: 140px;
+        height: 250px;
+    }
+    .images img{
+        width: 200px;
+        height: 250px;
+    }
+    iframe{
+        width: 100%;
+        margin: 0;
+        height: 200px;
+    }
+}

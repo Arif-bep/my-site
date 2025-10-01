@@ -10,7 +10,7 @@ body {
 .container {
   max-width: 850px;
   margin: 60px auto;
-  background: #ffffffee;
+  background: #ffffff;
   padding: 40px 50px;
   border-radius: 20px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
@@ -44,6 +44,8 @@ nav {
   align-items: center;
   background-color: #fff;
   display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
 
 ul {
@@ -69,4 +71,8 @@ nav a:hover {
 }
 
 @media (max-width: 768px){
+  nav{
+    font-size: 14px;
+    gap: 0;
+  }
 }
