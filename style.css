@@ -31,7 +31,10 @@ nav {
     display: flex;
     box-shadow: var(--shadow-sm);
 }
-
+.main{
+    align-items: center;
+    display: flex;
+}
 ul {
     display: flex;
     gap: 40px;
@@ -275,6 +278,7 @@ iframe {
     justify-content: center;
     align-items: center;
 }
+
 
 
 /* ayazin gotu 😍 */
